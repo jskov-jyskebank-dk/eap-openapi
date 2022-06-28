@@ -1,0 +1,5 @@
+rootProject.name = "eap-openapi"
+
+include "dto"
+include "ejb"
+include "web"
