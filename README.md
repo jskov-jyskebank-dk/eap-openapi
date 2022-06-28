@@ -8,13 +8,13 @@ The web application has a resource returning both a DTO from the utility jar, an
 
 ## Test
 
-Build the application:
+Build the application (or use the prebuilt ear, `eap-openapi.ear`):
 
 	./gradlew ear
 	
 Copy the application to EAP deploy folder:
 
-	cp build/libs/eap-openapi.ear (eap74 root)/standalone/deployments/eap-openapi.ear
+	cp (build/libs/)eap-openapi.ear (eap74 root)/standalone/deployments/eap-openapi.ear
 	
 Start the server
 
